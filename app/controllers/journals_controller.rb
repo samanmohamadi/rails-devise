@@ -2,6 +2,7 @@ class JournalsController < ApplicationController
   def index
     # @j = Journal.create(title: 'journal 2',issn: 'issn 2')
     # @j.save()/
+
     @journals = Journal.all();
   end
 
